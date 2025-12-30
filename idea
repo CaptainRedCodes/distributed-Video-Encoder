@@ -1,0 +1,14 @@
+This project is a backend system that accepts uploaded videos, splits them into smaller chunks, processes those chunks in parallel using multiple worker nodes, and merges the processed outputs into a final video available in different resolutions.
+
+1st Task: Accept the YT video and store it locally(for now).
+
+
+
+
+
+
+
+
+
+
+uv run fastapi dev app/main.py
